@@ -1,5 +1,12 @@
 [
   {
+    "name": "about",
+    "path": "/about",
+    "component": "/home/chiira/personalProjects/nuxt-app/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_92f3a49a"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/home/chiira/personalProjects/nuxt-app/pages/index.vue",
