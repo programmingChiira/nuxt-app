@@ -7,6 +7,13 @@
     "_name": "_92f3a49a"
   },
   {
+    "name": "more",
+    "path": "/more",
+    "component": "/home/chiira/personalProjects/nuxt-app/pages/more.vue",
+    "chunkName": "pages/more",
+    "_name": "_2a5548c2"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/home/chiira/personalProjects/nuxt-app/pages/index.vue",
