@@ -1,12 +1,9 @@
 <template>
-  <div>
-    <h1>Home Page</h1>
-    <p>Welcome to the Home Page!</p>
-  </div>
-</template>
-
-<script lang="ts">
-export default {
-  name: "HomePage",
-};
-</script>
+    <div>
+      <h1>Home page</h1>
+      <AppAlert>
+        This is a home page
+      </AppAlert>
+    </div>
+  </template>
+  
