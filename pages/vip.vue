@@ -89,22 +89,22 @@
                                         </a>
                                     </div>
                                     <div class="pagelink">
-                                        <nuxt-link to="/transactions">
+                                        <NuxtLink to="/transactions">
                                             <i class="bi bi-wallet-fill"></i>
                                             <span class="text">transaction</span>
-                                        </nuxt-link>
+                                        </NuxtLink>
                                     </div>
                                     <div class="pagelink">
-                                        <nuxt-link to="/terms">
+                                        <NuxtLink to="/terms">
                                             <i class="bi bi-file-earmark-text-fill"></i>
                                             <span class="text">Terms</span>
-                                        </nuxt-link>
+                                        </NuxtLink>
                                     </div>
                                     <div class="pagelink">
-                                        <nuxt-link to="/contact">
+                                        <NuxtLink to="/contact">
                                             <i class="bi bi-question-circle-fill"></i>
                                             <span class="text">contact us</span>
-                                        </nuxt-link>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                             </div>
@@ -112,10 +112,10 @@
                             <div class="logut">
                                 <div class="card">
                                     <div class="pagelink">
-                                        <nuxt-link class="border-0 pb-0" to="/">
+                                        <NuxtLink class="border-0 pb-0" to="/">
                                             <i class="bi bi-file-lock-fill"></i>
                                             <span class="text">Logout</span>
-                                        </nuxt-link>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                             </div>

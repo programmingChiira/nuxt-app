@@ -5,24 +5,24 @@
         <div class="col-12">
           <div id="mainfooter">
             <div class="footermenu active">
-              <nuxt-link to="/">
-                <img src="@/public/assets/icons/gameicon.png" />
+              <NuxtLink to="/">
+                <img src="/assets/icons/gameicon.png" />
                 <h6>Home</h6>
-              </nuxt-link>
+              </NuxtLink>
             </div>
 
             <div class="footermenu promogif">
-              <nuxt-link to="/promotions">
-                <img src="@/public/assets/images/gift.gif" />
+              <NuxtLink to="/promotions">
+                <img src="/assets/images/gift.gif" />
                 <h6>Promotions</h6>
-              </nuxt-link>
+              </NuxtLink>
             </div>
 
             <div class="footermenu">
-              <nuxt-link to="/profile">
-                <img src="@/public/assets/icons/usericon.png" />
+              <NuxtLink to="/profile">
+                <img src="/assets/icons/usericon.png" />
                 <h6>Profile</h6>
-              </nuxt-link>
+              </NuxtLink>
             </div>
           </div>
         </div>

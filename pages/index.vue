@@ -2,21 +2,7 @@
   <div class="app-container">
     <Header />
     <main>
-      <div id="slider-banner">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="banner-caption">
-                <div id="owl-demo" class="owl-carousel owl-theme">
-                  <div class="item"><img src="/assets/images/slider-banner-1.png" alt="slider-image" /></div>
-                  <div class="item"><img src="/assets/images/slider-banner-2.png" alt="slider-image" /></div>
-                  <div class="item"><img src="/assets/images/slider-banner-3.png" alt="slider-image" /></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Slider/>
       <div class="maincontent">
         <div id="playingNow">
 
@@ -82,10 +68,10 @@
                 <div class="games-menu">
                   <div class="game-icon-wrap">
                     <div class="game-icon">
-                      <nuxt-link to="/vip">
+                      <NuxtLink to="/vip">
                         <img src="/assets/images/gameicon-1.png" />
                         <h6>VIPs</h6>
-                      </nuxt-link>
+                      </NuxtLink>
                     </div>
 
                     <div class="game-icon">
@@ -96,24 +82,24 @@
                     </div>
 
                     <div class="game-icon">
-                      <nuxt-link to="/promotions">
+                      <NuxtLink to="/promotions">
                         <img src="/assets/images/gameicon-3.png" />
                         <h6>Promos</h6>
-                      </nuxt-link>
+                      </NuxtLink>
                     </div>
 
                     <div class="game-icon">
-                      <nuxt-link to="/freebet">
+                      <NuxtLink to="/freebet">
                         <img src="/assets/images/gameicon-4.png" />
                         <h6>Free Bets</h6>
-                      </nuxt-link>
+                      </NuxtLink>
                     </div>
 
                     <div class="game-icon">
-                      <nuxt-link to="messages">
+                      <NuxtLink to="messages">
                         <img src="/assets/images/gameicon-5.png" />
                         <h6>message</h6>
-                      </nuxt-link>
+                      </NuxtLink>
                     </div>
                   </div>
                 </div>
@@ -128,7 +114,7 @@
               <div class="col-12">
                 <div class="jackpot_items">
                   <div id="minorJackpot" class="jackpot_type">
-                    <nuxt-link to="/freebet">
+                    <NuxtLink to="/freebet">
                       <div class="jackpot_icon">
                         <img src="/assets/icons/bonus-1.png">
                       </div>
@@ -136,11 +122,11 @@
                         <h3>5,000</h3>
                         <span>Minor</span>
                       </div>
-                    </nuxt-link>
+                    </NuxtLink>
                   </div>
 
                   <div id="grandJackpot" class="jackpot_type">
-                    <nuxt-link to="/freebet">
+                    <NuxtLink to="/freebet">
                       <div class="jackpot_icon">
                         <img src="/assets/icons/bonus-3.png">
                       </div>
@@ -148,11 +134,11 @@
                         <h1>30,000</h1>
                         <span>Grand</span>
                       </div>
-                    </nuxt-link>
+                    </NuxtLink>
                   </div>
 
                   <div id="megaJackpot" class="jackpot_type">
-                    <nuxt-link to="/freebet">
+                    <NuxtLink to="/freebet">
                       <div class="jackpot_icon">
                         <img src="/assets/icons/bonus-2.png">
                       </div>
@@ -160,7 +146,7 @@
                         <h3>15,000</h3>
                         <span>Mega</span>
                       </div>
-                    </nuxt-link>
+                    </NuxtLink>
                   </div>
                 </div>
               </div>
@@ -255,7 +241,7 @@
                         <a to="#!">demo</a>
                       </div>
                       <div id="playnow">
-                        <nuxt-link to="/iframe">play now</nuxt-link>
+                        <NuxtLink to="/iframe">play now</NuxtLink>
                       </div>
                     </div>
                   </div>
@@ -275,7 +261,7 @@
                         <a to="#!">demo</a>
                       </div>
                       <div id="playnow">
-                        <nuxt-link to="/iframe">play now</nuxt-link>
+                        <NuxtLink to="/iframe">play now</NuxtLink>
                       </div>
                     </div>
                   </div>
@@ -295,7 +281,7 @@
                         <a to="#!">demo</a>
                       </div>
                       <div id="playnow">
-                        <nuxt-link to="/iframe">play now</nuxt-link>
+                        <NuxtLink to="/iframe">play now</NuxtLink>
                       </div>
                     </div>
                   </div>
@@ -315,7 +301,7 @@
                         <a to="#!">demo</a>
                       </div>
                       <div id="playnow">
-                        <nuxt-link to="/iframe">play now</nuxt-link>
+                        <NuxtLink to="/iframe">play now</NuxtLink>
                       </div>
                     </div>
                   </div>
@@ -335,7 +321,7 @@
                         <a to="#!">demo</a>
                       </div>
                       <div id="playnow">
-                        <nuxt-link to="/iframe">play now</nuxt-link>
+                        <NuxtLink to="/iframe">play now</NuxtLink>
                       </div>
                     </div>
                   </div>
@@ -355,7 +341,7 @@
                         <a to="#!">demo</a>
                       </div>
                       <div id="playnow">
-                        <nuxt-link to="/iframe">play now</nuxt-link>
+                        <NuxtLink to="/iframe">play now</NuxtLink>
                       </div>
                     </div>
                   </div>
@@ -375,7 +361,7 @@
                         <a to="#!">demo</a>
                       </div>
                       <div id="playnow">
-                        <nuxt-link to="/iframe">play now</nuxt-link>
+                        <NuxtLink to="/iframe">play now</NuxtLink>
                       </div>
                     </div>
                   </div>
@@ -395,7 +381,7 @@
                         <a to="#!">demo</a>
                       </div>
                       <div id="playnow">
-                        <nuxt-link to="/iframe">play now</nuxt-link>
+                        <NuxtLink to="/iframe">play now</NuxtLink>
                       </div>
                     </div>
                   </div>

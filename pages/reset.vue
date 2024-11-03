@@ -8,9 +8,9 @@
                             <div class="col-12">
                                 <div class="account-details">
                                     <div id="logo">
-                                        <nuxt-link to="/">
+                                        <NuxtLink to="/">
                                             <img src="/assets/images/logo.png" />
-                                        </nuxt-link>
+                                        </NuxtLink>
                                     </div>
 
                                     <div class="form-holder">
@@ -52,9 +52,9 @@
                                                     <div class="form-check mt-3">
                                                         <label class="form-check-label">
                                                             Already have an acount?
-                                                            <nuxt-link to="/login">
+                                                            <NuxtLink to="/login">
                                                                 Login Now
-                                                            </nuxt-link>
+                                                            </NuxtLink>
                                                         </label>
                                                     </div>
                                                 </form>

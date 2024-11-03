@@ -5,17 +5,17 @@
         <div class="col-12">
           <div class="main-header">
             <div id="menu">
-              <img src="@/public/assets/icons/menu.png" />
+              <img src="/assets/icons/menu.png" />
             </div>
             <div id="logo">
-              <nuxt-link to="/">
-                <img src="@/public/assets/images/logo.png" />
-              </nuxt-link>
+              <NuxtLink to="/">
+                <img src="/assets/images/logo.png" />
+              </NuxtLink>
             </div>
             <div id="accessAccount">
               <div class="authetication">
-                <nuxt-link class="login" to="/login">Login</nuxt-link>
-                <nuxt-link class="join" to="/join">Join</nuxt-link>
+                <NuxtLink class="login" to="/login">Login</NuxtLink>
+                <NuxtLink class="join" to="/join">Join</NuxtLink>
               </div>
             </div>
           </div>

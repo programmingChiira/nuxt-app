@@ -6,9 +6,9 @@
                     <div class="col-12">
                         <div class="profile-details-wrap">
                             <div class="back_btn">
-                                <nuxt-link to="/">
+                                <NuxtLink to="/">
                                     <img src="/assets/icons/back.png" />
-                                </nuxt-link>
+                                </NuxtLink>
                                 <span class="text">Aviator</span>
                             </div>
                             <div class="proflie-details">

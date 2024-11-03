@@ -8,9 +8,9 @@
                             <div class="col-12">
                                 <div class="account-details">
                                     <div id="logo">
-                                        <nuxt-link href="/">
+                                        <NuxtLink href="/">
                                             <img src="/assets/images/logo.png" />
-                                        </nuxt-link>
+                                        </NuxtLink>
                                     </div>
 
                                     <div class="form-holder">
@@ -49,9 +49,9 @@
                                                         <label
                                                             class="form-check-label d-flex justify-content-end gap-1">
                                                             Forgot password?
-                                                            <nuxt-link to="/forgotpassword">Get it
+                                                            <NuxtLink to="/forgotpassword">Get it
                                                                 now
-                                                            </nuxt-link>
+                                                            </NuxtLink>
                                                         </label>
                                                     </div>
 
@@ -62,7 +62,7 @@
 
                                                     <div class="form-check mt-3">
                                                         <label class="form-check-label">I don't have an acount?
-                                                            <nuxt-link to="/join">Join Now</nuxt-link> </label>
+                                                            <NuxtLink to="/join">Join Now</NuxtLink> </label>
                                                     </div>
                                                 </form>
                                             </div>

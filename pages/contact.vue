@@ -8,9 +8,9 @@
                         <div class="col-12">
                             <div class="profile-details-wrap">
                                 <div class="back_btn">
-                                    <nuxt-link href="/profile">
+                                    <NuxtLink href="/profile">
                                         <img src="/assets/icons/back.png" />
-                                    </nuxt-link>
+                                    </NuxtLink>
                                     <span class="text">Contact Us</span>
                                 </div>
                                 <div class="proflie-details">
@@ -90,10 +90,10 @@
                             <div class="logut">
                                 <div class="card">
                                     <div class="pagelink">
-                                        <nuxt-link class="border-0 pb-0" to="/">
+                                        <NuxtLink class="border-0 pb-0" to="/">
                                             <i class="bi bi-file-lock-fill"></i>
                                             <span class="text">Logout</span>
-                                        </nuxt-link>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                             </div>
