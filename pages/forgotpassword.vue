@@ -64,7 +64,7 @@ import Slider from "../components/Slider.vue";
 import Footer from "../components/AppFooter.vue";
 
 export default {
-    name: "LoginPage",
+    name: "ForgotPasswordPage",
     data() {
         return {
             //

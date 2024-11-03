@@ -13,20 +13,21 @@
                                 <div class="col-12">
                                     <div class="banner-caption">
                                         <div id="owl-demo" class="owl-carousel owl-theme">
-                                            <div class="item"><img src="/assets/images/carousel-2.jpg" alt="promo" /></div>
+                                            <div class="item"><img src="/assets/images/slider-banner.png" alt="text" /></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="maincontent">
                         <div class="container">
                             <div class="row">
                                 <div class="col-12">
                                     <div class="myaccount-details">
                                         <div class="rewards-wrapper text-center">
-                                            <h5>Promotions</h5>
+                                            <h5>Freebets</h5>
 
                                             <div class="rewards-header">
                                                 <div class="rewards-card">
@@ -70,42 +71,6 @@
                                                         <div class="progress-bar bg-custom" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                        <div id="offer">
-                                            <div class="offerwrapper">
-                                                <div class="offertype">VIP2</div>
-                                                <div class="offerdetails">
-                                                    <p>7 Bets to restore your VIP Level to 5</p>
-                                                    <div class="progress">
-                                                        <div class="progress-bar bg-custom" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div id="offer">
-                                            <div class="offerwrapper">
-                                                <div class="offertype">VIP2</div>
-                                                <div class="offerdetails">
-                                                    <p>7 Bets to restore your VIP Level to 5</p>
-                                                    <div class="progress">
-                                                        <div class="progress-bar bg-custom" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div id="offer">
-                                            <div class="offerwrapper">
-                                                <div class="offertype">VIP2</div>
-                                                <div class="offerdetails">
-                                                    <p>7 Bets to restore your VIP Level to 5</p>
-                                                    <div class="progress">
-                                                        <div class="progress-bar bg-custom" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                                    </div>
-                                                </div>
-                                                <div id="claimNow" class="offertype">Claim Now</div>
                                             </div>
                                         </div>
 
@@ -168,6 +133,7 @@
                         </div>
                     </div>
                 </main>
+
                 <Footer />
             </div>
         </div>
@@ -180,7 +146,7 @@ import Slider from "../components/Slider.vue";
 import Footer from "../components/AppFooter.vue";
 
 export default {
-    name: "PromotionsPage",
+    name: "FreebetPage",
     data() {
         return {
             //

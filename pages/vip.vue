@@ -2,61 +2,75 @@
     <body>
         <div id="app">
             <div class="app-container">
-                <Header/>
+                <Header />
 
                 <main>
-                    <Slider/>
+                    <Slider />
 
                     <div class="maincontent">
                         <div class="container">
                             <div class="row">
                                 <div class="col-12">
-                                    <div class="messages">
-                                        <div class="card">
-                                            <div class="notifications-container shadow">
-                                                <div class="header">
-                                                    <h6 class="title">
-                                                        messages
-                                                        <span class="unread-notifications-number">3</span>
-                                                    </h6>
+                                    <div class="myaccount-details">
+                                        <div class="rewards-wrapper text-center">
+                                            <h5>VIP Tickets</h5>
+
+                                            <div class="rewards-header">
+                                                <div class="rewards-card">
+                                                    <span class="rewards-number">6</span>
+                                                    <span class="rewards-text">Available Rewards</span>
                                                 </div>
-                                                <div class="mark-as-read text-end">
-                                                    <a href="#" id="markAllAsRead" class="mark-as-read-button align-middle">Mark all as read</a>
+
+                                                <div class="rewards-card">
+                                                    <span class="rewards-points">38</span>
+                                                    <span class="rewards-text">Claimed Rewards</span>
+                                                </div>
+
+                                                <div class="rewards-card">
+                                                    <span class="rewards-amount">87</span>
+                                                    <span class="rewards-text">Total Rewards</span>
                                                 </div>
                                             </div>
+                                        </div>
+                                    </div>
 
-                                            <div class="notifications">
-                                                <div class="single-notification-box unread">
-                                                    <div class="notification-text">
-                                                        <p>
-                                                            <a href="#" class="link name">Mark Webber</a>
-                                                            <span class="description">reacted to your recent post</span>
-                                                            <a class="link" href="#!">My first tournament today!</a>
-                                                        </p>
-                                                        <p class="time">1m ago</p>
+                                    <div class="offer_wrapper">
+                                        <div id="offer">
+                                            <div class="offerwrapper">
+                                                <div class="offertype">VIP2</div>
+                                                <div class="offerdetails">
+                                                    <p>7 Bets to restore your VIP Level to 5</p>
+                                                    <div class="progress">
+                                                        <div class="progress-bar bg-custom" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                     </div>
                                                 </div>
+                                                <div id="claimNow" class="offertype">Claim Now</div>
+                                            </div>
+                                        </div>
 
-                                                <div class="single-notification-box unread">
-                                                    <div class="notification-text">
-                                                        <p>
-                                                            <a href="#" class="link name">Angela Gray </a>
-                                                            <span class="description">followed you</span>
-                                                        </p>
-                                                        <p class="time">5m ago</p>
+                                        <div id="offer">
+                                            <div class="offerwrapper">
+                                                <div class="offertype">VIP2</div>
+                                                <div class="offerdetails">
+                                                    <p>7 Bets to restore your VIP Level to 5</p>
+                                                    <div class="progress">
+                                                        <div class="progress-bar bg-custom" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                     </div>
                                                 </div>
+                                                <div id="claimNow" class="offertype">Claim Now</div>
+                                            </div>
+                                        </div>
 
-                                                <div class="single-notification-box unread">
-                                                    <div class="notification-text">
-                                                        <p>
-                                                            <a href="#" class="link name">Jacob Thompsoapan</a>
-                                                            <span class="description">has joined your group</span>
-                                                            <a class="link group" href="#!">Chess Club</a>
-                                                        </p>
-                                                        <p class="time">1 day ago</p>
+                                        <div id="offer">
+                                            <div class="offerwrapper">
+                                                <div class="offertype">VIP2</div>
+                                                <div class="offerdetails">
+                                                    <p>7 Bets to restore your VIP Level to 5</p>
+                                                    <div class="progress">
+                                                        <div class="progress-bar bg-custom" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                     </div>
                                                 </div>
+                                                <div id="claimNow" class="offertype">Claim Now</div>
                                             </div>
                                         </div>
                                     </div>
@@ -107,7 +121,7 @@
                     </div>
                 </main>
 
-                <Footer/>
+                <Footer />
             </div>
         </div>
     </body>
@@ -119,7 +133,7 @@ import Slider from "../components/Slider.vue";
 import Footer from "../components/AppFooter.vue";
 
 export default {
-    name: "MessagesPage",
+    name: "VipPage",
     data() {
         return {
             //
