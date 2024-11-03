@@ -1,4 +1,5 @@
 <template>
+
     <body>
         <div id="app">
             <div class="app-container">
@@ -25,26 +26,37 @@
 
                                                         <form class="requires-validation" novalidate>
                                                             <div class="col-md-12 inputwrap">
-                                                                <input class="form-control" type="password" name="password" placeholder="Enter New Password" required />
-                                                                <span class="input-icon"><img src="/assets/icons/lock.png" /></span>
-                                                                <div class="valid-feedback">Password field is valid!</div>
-                                                                <div class="invalid-feedback">Password field cannot be blank!</div>
+                                                                <input class="form-control" type="password"
+                                                                    name="password" placeholder="Enter New Password"
+                                                                    required />
+                                                                <span class="input-icon"><img
+                                                                        src="/assets/icons/lock.png" /></span>
+                                                                <div class="valid-feedback">Password field is valid!
+                                                                </div>
+                                                                <div class="invalid-feedback">Password field cannot be
+                                                                    blank!</div>
                                                             </div>
 
                                                             <div class="col-md-12 inputwrap">
-                                                                <input class="form-control" type="password" name="password" placeholder="Confirm New Password" required />
-                                                                <span class="input-icon"><img src="/assets/icons/lock.png" /></span>
-                                                                <div class="valid-feedback">Password field is valid!</div>
-                                                                <div class="invalid-feedback">Password field cannot be blank!</div>
+                                                                <input class="form-control" type="password"
+                                                                    name="password" placeholder="Confirm New Password"
+                                                                    required />
+                                                                <span class="input-icon"><img
+                                                                        src="/assets/icons/lock.png" /></span>
+                                                                <div class="valid-feedback">Password field is valid!
+                                                                </div>
+                                                                <div class="invalid-feedback">Password field cannot be
+                                                                    blank!</div>
                                                             </div>
 
                                                             <div class="form-button mt-3">
-                                                                <button id="submit" type="submit" class="btn btn-primary">Reset Password</button>
+                                                                <button id="submit" type="submit"
+                                                                    class="btn btn-primary">Reset Password</button>
                                                             </div>
 
                                                             <div class="form-check mt-3">
                                                                 <label class="form-check-label">
-                                                                    Already have an acount? 
+                                                                    Already have an acount?
                                                                     <nuxt-link to="/login">
                                                                         Login Now
                                                                     </nuxt-link>
@@ -66,7 +78,7 @@
     </body>
 </template>
 
-<script>
+<script lang="ts">
 import Header from "../components/Navbar.vue";
 import Slider from "../components/Slider.vue";
 import Footer from "../components/AppFooter.vue";

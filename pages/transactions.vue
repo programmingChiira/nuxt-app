@@ -1,11 +1,12 @@
 <template>
+
     <body>
         <div id="app">
             <div class="app-container">
-                <Header/>
+                <Header />
 
                 <main>
-                    <Slider/>
+                    <Slider />
 
                     <div class="maincontent">
                         <div class="container">
@@ -17,7 +18,8 @@
                                             <div class="offerdetails">
                                                 <p>7 Bets to restore your VIP Level to 5</p>
                                                 <div class="progress">
-                                                    <div class="progress-bar bg-custom" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div class="progress-bar bg-custom" role="progressbar"
+                                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -145,13 +147,13 @@
                     </div>
                 </main>
 
-                <Footer/>
+                <Footer />
             </div>
         </div>
     </body>
 </template>
 
-<script>
+<script lang="ts">
 import Header from "../components/Navbar.vue";
 import Slider from "../components/Slider.vue";
 import Footer from "../components/AppFooter.vue";

@@ -1,4 +1,5 @@
 <template>
+
     <body>
         <div id="app">
             <div class="app-container">
@@ -48,8 +49,9 @@
                                                             </div>
 
                                                             <div class="form-check mt-3">
-                                                                <label class="form-check-label d-flex justify-content-end gap-1">
-                                                                    Forgot password? 
+                                                                <label
+                                                                    class="form-check-label d-flex justify-content-end gap-1">
+                                                                    Forgot password?
                                                                     <nuxt-link to="/forgotpassword">Get it
                                                                         now
                                                                     </nuxt-link>
@@ -81,7 +83,7 @@
     </body>
 </template>
 
-<script>
+<script lang="ts">
 import Header from "../components/Navbar.vue";
 import Slider from "../components/Slider.vue";
 import Footer from "../components/AppFooter.vue";

@@ -1,4 +1,5 @@
 <template>
+
     <body>
         <div id="app">
             <div class="app-container">
@@ -13,7 +14,8 @@
                                 <div class="col-12">
                                     <div class="banner-caption">
                                         <div id="owl-demo" class="owl-carousel owl-theme">
-                                            <div class="item"><img src="/assets/images/slider-banner.png" alt="text" /></div>
+                                            <div class="item"><img src="/assets/images/slider-banner.png" alt="text" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -55,7 +57,9 @@
                                                 <div class="offerdetails">
                                                     <p>7 Bets to restore your VIP Level to 5</p>
                                                     <div class="progress">
-                                                        <div class="progress-bar bg-custom" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        <div class="progress-bar bg-custom" role="progressbar"
+                                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div id="claimNow" class="offertype">Claim Now</div>
@@ -68,7 +72,9 @@
                                                 <div class="offerdetails">
                                                     <p>7 Bets to restore your VIP Level to 5</p>
                                                     <div class="progress">
-                                                        <div class="progress-bar bg-custom" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        <div class="progress-bar bg-custom" role="progressbar"
+                                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -80,7 +86,9 @@
                                                 <div class="offerdetails">
                                                     <p>7 Bets to restore your VIP Level to 5</p>
                                                     <div class="progress">
-                                                        <div class="progress-bar bg-custom" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        <div class="progress-bar bg-custom" role="progressbar"
+                                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div id="claimNow" class="offertype">Claim Now</div>
@@ -140,7 +148,7 @@
     </body>
 </template>
 
-<script>
+<script lang="ts">
 import Header from "../components/Navbar.vue";
 import Slider from "../components/Slider.vue";
 import Footer from "../components/AppFooter.vue";

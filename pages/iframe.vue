@@ -1,4 +1,5 @@
 <template>
+
     <body>
         <div id="iframe">
             <div class="pageheader">
@@ -29,7 +30,7 @@
     </body>
 </template>
 
-<script>
+<script lang="ts">
 import Header from "../components/Navbar.vue";
 import Slider from "../components/Slider.vue";
 import Footer from "../components/AppFooter.vue";

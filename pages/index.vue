@@ -175,10 +175,10 @@
                         </div>
                         <div class="game_cta">
                           <div id="demo">
-                            <a to="iframe.html">demo</a>
+                            <nuxt-link to="/iframe">demo</nuxt-link>
                           </div>
                           <div id="playnow">
-                            <a to="iframe.html">play now</a>
+                            <nuxt-link to="/iframe">play now</nuxt-link>
                           </div>
                         </div>
                       </div>
@@ -198,7 +198,7 @@
                             <a to="#!">demo</a>
                           </div>
                           <div id="playnow">
-                            <a to="iframe.html">play now</a>
+                            <nuxt-link to="/iframe">play now</nuxt-link>
                           </div>
                         </div>
                       </div>
@@ -218,7 +218,7 @@
                             <a to="#!">demo</a>
                           </div>
                           <div id="playnow">
-                            <a to="iframe.html">play now</a>
+                            <nuxt-link to="/iframe">play now</nuxt-link>
                           </div>
                         </div>
                       </div>
@@ -238,7 +238,7 @@
                             <a to="#!">demo</a>
                           </div>
                           <div id="playnow">
-                            <a to="iframe.html">play now</a>
+                            <nuxt-link to="/iframe">play now</nuxt-link>
                           </div>
                         </div>
                       </div>
@@ -258,7 +258,7 @@
                             <a to="#!">demo</a>
                           </div>
                           <div id="playnow">
-                            <a to="iframe.html">play now</a>
+                            <nuxt-link to="/iframe">play now</nuxt-link>
                           </div>
                         </div>
                       </div>
@@ -278,7 +278,7 @@
                             <a to="#!">demo</a>
                           </div>
                           <div id="playnow">
-                            <a to="iframe.html">play now</a>
+                            <nuxt-link to="/iframe">play now</nuxt-link>
                           </div>
                         </div>
                       </div>
@@ -298,7 +298,7 @@
                             <a to="#!">demo</a>
                           </div>
                           <div id="playnow">
-                            <a to="iframe.html">play now</a>
+                            <nuxt-link to="/iframe">play now</nuxt-link>
                           </div>
                         </div>
                       </div>
@@ -318,7 +318,7 @@
                             <a to="#!">demo</a>
                           </div>
                           <div id="playnow">
-                            <a to="iframe.html">play now</a>
+                            <nuxt-link to="/iframe">play now</nuxt-link>
                           </div>
                         </div>
                       </div>
@@ -338,7 +338,7 @@
                             <a to="#!">demo</a>
                           </div>
                           <div id="playnow">
-                            <a to="iframe.html">play now</a>
+                            <nuxt-link to="/iframe">play now</nuxt-link>
                           </div>
                         </div>
                       </div>
@@ -355,10 +355,46 @@
   </body>
 </template>
 
-<script>
+<script lang="ts">
+
 import Header from "../components/Navbar.vue";
 import Slider from "../components/Slider.vue";
 import Footer from "../components/AppFooter.vue";
+
+interface Player {
+  name: string;
+}
+
+interface Game {
+  title: string;
+  icon: string;
+  link: string;
+}
+
+interface Jackpot {
+  id: string;
+  type: string;
+  amount: string;
+  icon: string;
+  link: string;
+}
+
+interface Category {
+  name: string;
+  link: string;
+  active?: boolean;
+  isNew?: boolean;
+}
+
+interface GameItem {
+  id: number;
+  name: string;
+  players: number;
+  image: string;
+  demoLink: string;
+  playLink: string;
+  isFavourite: boolean;
+}
 
 export default {
   name: "HomePage",
@@ -371,34 +407,34 @@ export default {
         { name: "Catherine Kahuya" },
         { name: "Moses Karani" },
         { name: "Stacia Maragia" }
-      ],
+      ] as Player[],
       games: [
         { title: "VIPs", icon: "/assets/images/gameicon-1.png", link: "vippromos.html" },
         { title: "Hot Games", icon: "/assets/images/fireicon.gif", link: "#!" },
         { title: "Promos", icon: "/assets/images/gameicon-3.png", link: "promotions.html" },
         { title: "Free Bets", icon: "/assets/images/gameicon-4.png", link: "/freebet" },
         { title: "Message", icon: "/assets/images/gameicon-5.png", link: "messages.html" }
-      ],
+      ] as Game[],
       jackpots: [
         { id: "minorJackpot", type: "Minor", amount: "5,000", icon: "/assets/icons/bonus-1.png", link: "/freebet" },
         { id: "grandJackpot", type: "Grand", amount: "30,000", icon: "/assets/icons/bonus-3.png", link: "/freebet" },
         { id: "megaJackpot", type: "Mega", amount: "15,000", icon: "/assets/icons/bonus-2.png", link: "/freebet" }
-      ],
+      ] as Jackpot[],
       categories: [
         { name: "All", link: "#!", active: true },
         { name: "Live Casino", link: "#!", isNew: true },
         { name: "Casino", link: "#!" },
         { name: "Roulette Wheel", link: "#!" },
         { name: "Slots", link: "#!" }
-      ],
+      ] as Category[],
       gamesList: [
-        { id: 1, name: "Casino Game 1", players: 1201, image: "/assets/images/casinogame-1.svg", demoLink: "iframe.html", playLink: "iframe.html", isFavourite: false },
-        { id: 2, name: "Casino Game 2", players: 1201, image: "/assets/images/casino-game-1.png", demoLink: "#!", playLink: "iframe.html", isFavourite: true },
-      ]
+        { id: 1, name: "Casino Game 1", players: 1201, image: "/assets/images/casinogame-1.svg", demoLink: "/iframe", playLink: "/iframe", isFavourite: false },
+        { id: 2, name: "Casino Game 2", players: 1201, image: "/assets/images/casino-game-1.png", demoLink: "#!", playLink: "/iframe", isFavourite: true },
+      ] as GameItem[]
     };
   },
   methods: {
-    toggleFavourite(gameId) {
+    toggleFavourite(gameId: number) {
       const game = this.gamesList.find(g => g.id === gameId);
       if (game) game.isFavourite = !game.isFavourite;
     }
@@ -410,5 +446,6 @@ export default {
   },
 };
 </script>
+
 
 <style scoped></style>

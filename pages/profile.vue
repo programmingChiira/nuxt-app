@@ -1,4 +1,5 @@
 <template>
+
     <body>
         <div id="app">
             <div class="app-container">
@@ -15,7 +16,8 @@
                                             <div class="offerdetails">
                                                 <p>7 Bets to restore your VIP Level to 5</p>
                                                 <div class="progress">
-                                                    <div class="progress-bar bg-custom" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div class="progress-bar bg-custom" role="progressbar"
+                                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -80,24 +82,34 @@
                                                         <h6>Deposit Cash to your wallet</h6>
                                                         <div class="choose-amount-to-deposit w-100">
                                                             <div class="deposit-btn">
-                                                                <input type="submit" value="50" name="amount_50" id="amount-placed" />
-                                                                <input type="submit" value="100" name="amount_100" id="amount-placed" class="submit-deposit" />
-                                                                <input type="submit" value="250" name="amount_250" id="amount-placed" />
-                                                                <input type="submit" value="500" name="amount_500" id="amount-placed" />
-                                                                <input type="submit" value="1000" name="amount_1000" id="amount-placed" />
+                                                                <input type="submit" value="50" name="amount_50"
+                                                                    id="amount-placed" />
+                                                                <input type="submit" value="100" name="amount_100"
+                                                                    id="amount-placed" class="submit-deposit" />
+                                                                <input type="submit" value="250" name="amount_250"
+                                                                    id="amount-placed" />
+                                                                <input type="submit" value="500" name="amount_500"
+                                                                    id="amount-placed" />
+                                                                <input type="submit" value="1000" name="amount_1000"
+                                                                    id="amount-placed" />
                                                             </div>
                                                         </div>
 
-                                                        <p class="pt-1 pb-1 pr-3 mb-0 text-left w-100">Or Enter the amount you wish to Deposit</p>
+                                                        <p class="pt-1 pb-1 pr-3 mb-0 text-left w-100">Or Enter the
+                                                            amount you wish to Deposit</p>
 
                                                         <div class="amount-field">
                                                             <div class="input-group mb-2">
-                                                                <input type="text" class="form-control form-control-lg" placeholder="Min Kes 20" aria-label="Amount" />
+                                                                <input type="text" class="form-control form-control-lg"
+                                                                    placeholder="Min Kes 20" aria-label="Amount" />
                                                             </div>
 
-                                                            <button type="button" class="btn btn-block btn-lg btn-success mb-2">Deposit</button>
-                                                            <p class="small mb-1">Maximum value per transaction is KES 150.000.00</p>
-                                                            <p class="small mb-1">Maximum daily transaction value is KES 300.000.00</p>
+                                                            <button type="button"
+                                                                class="btn btn-block btn-lg btn-success mb-2">Deposit</button>
+                                                            <p class="small mb-1">Maximum value per transaction is KES
+                                                                150.000.00</p>
+                                                            <p class="small mb-1">Maximum daily transaction value is KES
+                                                                300.000.00</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -141,12 +153,16 @@
                                                         <h6>Withdraw Cash from your wallet</h6>
                                                         <div class="amount-field">
                                                             <div class="input-group mb-2">
-                                                                <input type="text" class="form-control form-control-lg" placeholder="Min Kes 50" aria-label="Amount" />
+                                                                <input type="text" class="form-control form-control-lg"
+                                                                    placeholder="Min Kes 50" aria-label="Amount" />
                                                             </div>
 
-                                                            <button type="button" class="btn btn-block btn-lg btn-warning mb-2">Withdraw</button>
-                                                            <p class="small mb-1">Maximum value per transaction is KES 150.000.00</p>
-                                                            <p class="small mb-1">Maximum daily transaction value is KES 300.000.00</p>
+                                                            <button type="button"
+                                                                class="btn btn-block btn-lg btn-warning mb-2">Withdraw</button>
+                                                            <p class="small mb-1">Maximum value per transaction is KES
+                                                                150.000.00</p>
+                                                            <p class="small mb-1">Maximum daily transaction value is KES
+                                                                300.000.00</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -172,23 +188,29 @@
 
                                                 <div class="referrals-tab-wrapper">
                                                     <div class="referrals-tab">
-                                                        <button class="referral_links active" onclick="myreferral(event, 'referralsSummary')">
+                                                        <button class="referral_links active"
+                                                            onclick="myreferral(event, 'referralsSummary')">
                                                             <span class="text">Summary</span>
                                                         </button>
-                                                        <button class="referral_links" onclick="myreferral(event, 'referralsPayout')">
+                                                        <button class="referral_links"
+                                                            onclick="myreferral(event, 'referralsPayout')">
                                                             <span class="text">Payout</span>
                                                         </button>
-                                                        <button class="referral_links" onclick="myreferral(event, 'referralsfaqs')">
+                                                        <button class="referral_links"
+                                                            onclick="myreferral(event, 'referralsfaqs')">
                                                             <span class="text">FAQs</span>
                                                         </button>
                                                     </div>
 
                                                     <div class="referrals-content">
-                                                        <div id="referralsSummary" class="referralstab-content" style="display: block;">
+                                                        <div id="referralsSummary" class="referralstab-content"
+                                                            style="display: block;">
                                                             <div class="card">
-                                                                <p class="pt-1 pb-1 mb-0 text-left w-100 text-warning">Copy the link to refer friends and earn</p>
+                                                                <p class="pt-1 pb-1 mb-0 text-left w-100 text-warning">
+                                                                    Copy the link to refer friends and earn</p>
                                                                 <div class="copylink">
-                                                                    <input type="text" class="form-control-lg" value="https://feji.us/nzgahu" id="myInput" />
+                                                                    <input type="text" class="form-control-lg"
+                                                                        value="https://feji.us/nzgahu" id="myInput" />
                                                                     <button onclick="myFunction()">Copy link</button>
                                                                 </div>
 
@@ -243,7 +265,8 @@
 
                                                         <div id="referralsPayout" class="referralstab-content">
                                                             <div class="card">
-                                                                <p class="pt-1 pb-1 mb-0 text-left w-100 text-warning">My Payments</p>
+                                                                <p class="pt-1 pb-1 mb-0 text-left w-100 text-warning">
+                                                                    My Payments</p>
                                                                 <div class="summary_table">
                                                                     <table>
                                                                         <tr>
@@ -273,15 +296,22 @@
 
                                                         <div id="referralsfaqs" class="referralstab-content">
                                                             <div class="card">
-                                                                <h6 class="pt-1 pb-1 mb-0 text-left w-100 text-warning">My Payments</h6>
+                                                                <h6 class="pt-1 pb-1 mb-0 text-left w-100 text-warning">
+                                                                    My Payments</h6>
                                                                 <div id="faqsAccordion">
                                                                     <div class="accordion-item">
                                                                         <div class="accordion-header">
                                                                             What is Web Development?
                                                                         </div>
                                                                         <div class="accordion-body">
-                                                                            Web Development broadly refers to the tasks associated with developing functional websites and applications for the Internet. The web development process includes
-                                                                            web design, web content development, client-side/server-side scripting and network security configuration, among other tasks.
+                                                                            Web Development broadly refers to the tasks
+                                                                            associated with developing functional
+                                                                            websites and applications for the Internet.
+                                                                            The web development process includes
+                                                                            web design, web content development,
+                                                                            client-side/server-side scripting and
+                                                                            network security configuration, among other
+                                                                            tasks.
                                                                         </div>
                                                                     </div>
 
@@ -290,8 +320,14 @@
                                                                             What is Web Development?
                                                                         </div>
                                                                         <div class="accordion-body">
-                                                                            Web Development broadly refers to the tasks associated with developing functional websites and applications for the Internet. The web development process includes
-                                                                            web design, web content development, client-side/server-side scripting and network security configuration, among other tasks.
+                                                                            Web Development broadly refers to the tasks
+                                                                            associated with developing functional
+                                                                            websites and applications for the Internet.
+                                                                            The web development process includes
+                                                                            web design, web content development,
+                                                                            client-side/server-side scripting and
+                                                                            network security configuration, among other
+                                                                            tasks.
                                                                         </div>
                                                                     </div>
 
@@ -300,8 +336,14 @@
                                                                             What is Web Development?
                                                                         </div>
                                                                         <div class="accordion-body">
-                                                                            Web Development broadly refers to the tasks associated with developing functional websites and applications for the Internet. The web development process includes
-                                                                            web design, web content development, client-side/server-side scripting and network security configuration, among other tasks.
+                                                                            Web Development broadly refers to the tasks
+                                                                            associated with developing functional
+                                                                            websites and applications for the Internet.
+                                                                            The web development process includes
+                                                                            web design, web content development,
+                                                                            client-side/server-side scripting and
+                                                                            network security configuration, among other
+                                                                            tasks.
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -358,7 +400,7 @@
     </body>
 </template>
 
-<script>
+<script lang="ts">
 import Header from "../components/Navbar.vue";
 import Slider from "../components/Slider.vue";
 import Footer from "../components/AppFooter.vue";

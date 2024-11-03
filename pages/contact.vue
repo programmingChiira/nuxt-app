@@ -1,4 +1,5 @@
 <template>
+
     <body>
         <div id="app">
             <div class="app-container">
@@ -36,7 +37,8 @@
                                             <div class="offerdetails">
                                                 <p>7 Bets to restore your VIP Level to 5</p>
                                                 <div class="progress">
-                                                    <div class="progress-bar bg-custom" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div class="progress-bar bg-custom" role="progressbar"
+                                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -52,17 +54,21 @@
                                                         <span class="fa fa-map-marker"></span>
                                                     </div>
                                                     <div class="text pl-3">
-                                                        <p><span>Address:</span> 198 Westlands Road, Suite 721 Nairobi, Kenya</p>
+                                                        <p><span>Address:</span> 198 Westlands Road, Suite 721 Nairobi,
+                                                            Kenya</p>
                                                     </div>
                                                 </div>
                                                 <div class="dbox w-100 d-flex align-items-center">
                                                     <div class="text pl-3">
-                                                        <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+                                                        <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355
+                                                                98</a></p>
                                                     </div>
                                                 </div>
                                                 <div class="dbox w-100 d-flex align-items-center">
                                                     <div class="text pl-3">
-                                                        <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+                                                        <p><span>Email:</span> <a
+                                                                href="mailto:info@yoursite.com">info@yoursite.com</a>
+                                                        </p>
                                                     </div>
                                                 </div>
                                                 <div class="dbox w-100 d-flex align-items-center">
@@ -88,10 +94,10 @@
                                     <div class="logut">
                                         <div class="card">
                                             <div class="pagelink">
-                                                <a class="border-0 pb-0" href="index.html">
+                                                <nuxt-link class="border-0 pb-0" to="/">
                                                     <i class="bi bi-file-lock-fill"></i>
                                                     <span class="text">Logout</span>
-                                                </a>
+                                                </nuxt-link>
                                             </div>
                                         </div>
                                     </div>
@@ -106,7 +112,7 @@
     </body>
 </template>
 
-<script>
+<script lang="ts">
 import Header from "../components/Navbar.vue";
 import Slider from "../components/Slider.vue";
 import Footer from "../components/AppFooter.vue";

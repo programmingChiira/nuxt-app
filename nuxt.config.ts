@@ -4,6 +4,8 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
     head: {
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
       link: [
         { rel: 'shortcut icon', href: '/assets/images/favicon.png', type: 'image/png' },
         { rel: 'stylesheet', href: '/assets/css/sparkpesa.css', type: 'text/css' },

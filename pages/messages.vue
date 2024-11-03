@@ -1,11 +1,12 @@
 <template>
+
     <body>
         <div id="app">
             <div class="app-container">
-                <Header/>
+                <Header />
 
                 <main>
-                    <Slider/>
+                    <Slider />
 
                     <div class="maincontent">
                         <div class="container">
@@ -21,7 +22,8 @@
                                                     </h6>
                                                 </div>
                                                 <div class="mark-as-read text-end">
-                                                    <a href="#" id="markAllAsRead" class="mark-as-read-button align-middle">Mark all as read</a>
+                                                    <a href="#" id="markAllAsRead"
+                                                        class="mark-as-read-button align-middle">Mark all as read</a>
                                                 </div>
                                             </div>
 
@@ -107,13 +109,13 @@
                     </div>
                 </main>
 
-                <Footer/>
+                <Footer />
             </div>
         </div>
     </body>
 </template>
 
-<script>
+<script lang="ts">
 import Header from "../components/Navbar.vue";
 import Slider from "../components/Slider.vue";
 import Footer from "../components/AppFooter.vue";
