@@ -27,7 +27,7 @@
                                 <div class="col-12">
                                     <div class="myaccount-details">
                                         <div class="rewards-wrapper text-center">
-                                            <h5>Freebets</h5>
+                                            <h5>freebet</h5>
 
                                             <div class="rewards-header">
                                                 <div class="rewards-card">
@@ -98,22 +98,22 @@
                                                 </a>
                                             </div>
                                             <div class="pagelink">
-                                                <a href="transaction.html">
+                                                <nuxt-link to="/transactions">
                                                     <i class="bi bi-wallet-fill"></i>
                                                     <span class="text">transaction</span>
-                                                </a>
+                                                </nuxt-link>
                                             </div>
                                             <div class="pagelink">
-                                                <a href="terms.html">
+                                                <nuxt-link to="/terms">
                                                     <i class="bi bi-file-earmark-text-fill"></i>
                                                     <span class="text">Terms</span>
-                                                </a>
+                                                </nuxt-link>
                                             </div>
                                             <div class="pagelink">
-                                                <a href="contactus.html">
+                                                <nuxt-link to="contact">
                                                     <i class="bi bi-question-circle-fill"></i>
                                                     <span class="text">contact us</span>
-                                                </a>
+                                                </nuxt-link>
                                             </div>
                                         </div>
                                     </div>
@@ -121,10 +121,10 @@
                                     <div class="logut">
                                         <div class="card">
                                             <div class="pagelink">
-                                                <a class="border-0 pb-0" href="index.html">
+                                                <nuxt-link class="border-0 pb-0" to="/">
                                                     <i class="bi bi-file-lock-fill"></i>
                                                     <span class="text">Logout</span>
-                                                </a>
+                                                </nuxt-link>
                                             </div>
                                         </div>
                                     </div>

@@ -27,10 +27,10 @@
                     <div class="games-menu">
                       <div class="game-icon-wrap">
                         <div class="game-icon">
-                          <a to="vippromos.html">
+                          <nuxt-link to="/vip">
                             <img src="/assets/images/gameicon-1.png" />
                             <h6>VIPs</h6>
-                          </a>
+                          </nuxt-link>
                         </div>
 
                         <div class="game-icon">
@@ -41,24 +41,24 @@
                         </div>
 
                         <div class="game-icon">
-                          <a to="promotions.html">
+                          <nuxt-link to="/promotions">
                             <img src="/assets/images/gameicon-3.png" />
                             <h6>Promos</h6>
-                          </a>
+                          </nuxt-link>
                         </div>
 
                         <div class="game-icon">
-                          <a to="freebets.html">
+                          <nuxt-link to="/freebet">
                             <img src="/assets/images/gameicon-4.png" />
                             <h6>Free Bets</h6>
-                          </a>
+                          </nuxt-link>
                         </div>
 
                         <div class="game-icon">
-                          <a to="messages.html">
+                          <nuxt-link to="messages">
                             <img src="/assets/images/gameicon-5.png" />
                             <h6>message</h6>
-                          </a>
+                          </nuxt-link>
                         </div>
                       </div>
                     </div>
@@ -73,7 +73,7 @@
                   <div class="col-12">
                     <div class="jackpot_items">
                       <div id="minorJackpot" class="jackpot_type">
-                        <a to="freebets.html">
+                        <nuxt-link to="/freebet">
                           <div class="jackpot_icon">
                             <img src="/assets/icons/bonus-1.png">
                           </div>
@@ -81,11 +81,11 @@
                             <h3>5,000</h3>
                             <span>Minor</span>
                           </div>
-                        </a>
+                        </nuxt-link>
                       </div>
 
                       <div id="grandJackpot" class="jackpot_type">
-                        <a to="freebets.html">
+                        <nuxt-link to="/freebet">
                           <div class="jackpot_icon">
                             <img src="/assets/icons/bonus-3.png">
                           </div>
@@ -93,11 +93,11 @@
                             <h1>30,000</h1>
                             <span>Grand</span>
                           </div>
-                        </a>
+                        </nuxt-link>
                       </div>
 
                       <div id="megaJackpot" class="jackpot_type">
-                        <a to="freebets.html">
+                        <nuxt-link to="/freebet">
                           <div class="jackpot_icon">
                             <img src="/assets/icons/bonus-2.png">
                           </div>
@@ -105,7 +105,7 @@
                             <h3>15,000</h3>
                             <span>Mega</span>
                           </div>
-                        </a>
+                        </nuxt-link>
                       </div>
                     </div>
                   </div>
@@ -376,13 +376,13 @@ export default {
         { title: "VIPs", icon: "/assets/images/gameicon-1.png", link: "vippromos.html" },
         { title: "Hot Games", icon: "/assets/images/fireicon.gif", link: "#!" },
         { title: "Promos", icon: "/assets/images/gameicon-3.png", link: "promotions.html" },
-        { title: "Free Bets", icon: "/assets/images/gameicon-4.png", link: "freebets.html" },
+        { title: "Free Bets", icon: "/assets/images/gameicon-4.png", link: "/freebet" },
         { title: "Message", icon: "/assets/images/gameicon-5.png", link: "messages.html" }
       ],
       jackpots: [
-        { id: "minorJackpot", type: "Minor", amount: "5,000", icon: "/assets/icons/bonus-1.png", link: "freebets.html" },
-        { id: "grandJackpot", type: "Grand", amount: "30,000", icon: "/assets/icons/bonus-3.png", link: "freebets.html" },
-        { id: "megaJackpot", type: "Mega", amount: "15,000", icon: "/assets/icons/bonus-2.png", link: "freebets.html" }
+        { id: "minorJackpot", type: "Minor", amount: "5,000", icon: "/assets/icons/bonus-1.png", link: "/freebet" },
+        { id: "grandJackpot", type: "Grand", amount: "30,000", icon: "/assets/icons/bonus-3.png", link: "/freebet" },
+        { id: "megaJackpot", type: "Mega", amount: "15,000", icon: "/assets/icons/bonus-2.png", link: "/freebet" }
       ],
       categories: [
         { name: "All", link: "#!", active: true },

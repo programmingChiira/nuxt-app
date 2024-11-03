@@ -132,10 +132,10 @@
                                     <div class="logut">
                                         <div class="card">
                                             <div class="pagelink">
-                                                <a class="border-0 pb-0" href="index.html">
+                                                <nuxt-link class="border-0 pb-0" to="/">
                                                     <i class="bi bi-file-lock-fill"></i>
                                                     <span class="text">Logout</span>
-                                                </a>
+                                                </nuxt-link>
                                             </div>
                                         </div>
                                     </div>

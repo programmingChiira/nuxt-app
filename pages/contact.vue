@@ -11,9 +11,9 @@
                                 <div class="col-12">
                                     <div class="profile-details-wrap">
                                         <div class="back_btn">
-                                            <a href="myaccount.html">
+                                            <nuxt-link href="/profile">
                                                 <img src="/assets/icons/back.png" />
-                                            </a>
+                                            </nuxt-link>
                                             <span class="text">Contact Us</span>
                                         </div>
                                         <div class="proflie-details">
