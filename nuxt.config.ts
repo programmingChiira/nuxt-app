@@ -1,6 +1,25 @@
+import { config } from 'dotenv';
+config();
+
 export default defineNuxtConfig({
+  runtimeConfig: {
+    public: {
+      ...process.env
+    }
+  },
   compatibilityDate: '2024-04-03',
   devtools: { enabled: false },
+  vite: {
+    css: {
+      devSourcemap: true
+    },
+    vue: {
+      customElement: true
+    },
+    vueJsx: {
+      mergeProps: true
+    }
+  },
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
     head: {

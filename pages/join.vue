@@ -19,7 +19,7 @@
                                                 <div class="account-heading">
                                                     <h1 class="text-center">Create an account</h1>
                                                     <p class="text-center">Fill in the form below to complete
-                                                        your Registeration.</p>
+                                                        your Registration.</p>
                                                 </div>
 
                                                 <form class="requires-validation" novalidate>
@@ -28,10 +28,8 @@
                                                             placeholder="Full Name" required />
                                                         <span class="input-icon"><img
                                                                 src="/assets/icons/user.png" /></span>
-                                                        <div class="valid-feedback">Username field is valid!
-                                                        </div>
-                                                        <div class="invalid-feedback">Username field cannot be
-                                                            blank!</div>
+                                                        <div class="valid-feedback">Username field is valid!</div>
+                                                        <div class="invalid-feedback">Username field cannot be blank!</div>
                                                     </div>
 
                                                     <div class="col-md-12 inputwrap">
@@ -39,10 +37,8 @@
                                                             placeholder="Phone Number" required />
                                                         <span class="input-icon"><img
                                                                 src="/assets/icons/call.png" /></span>
-                                                        <div class="valid-feedback">Enter your Phone Number
-                                                        </div>
-                                                        <div class="invalid-feedback">Enter your Phone Number
-                                                            field cannot be blank!</div>
+                                                        <div class="valid-feedback">Enter your Phone Number</div>
+                                                        <div class="invalid-feedback">Phone Number field cannot be blank!</div>
                                                     </div>
 
                                                     <div class="col-md-12 inputwrap">
@@ -50,10 +46,8 @@
                                                             placeholder="Password" required />
                                                         <span class="input-icon"><img
                                                                 src="/assets/icons/lock.png" /></span>
-                                                        <div class="valid-feedback">Password field is valid!
-                                                        </div>
-                                                        <div class="invalid-feedback">Password field cannot be
-                                                            blank!</div>
+                                                        <div class="valid-feedback">Password field is valid!</div>
+                                                        <div class="invalid-feedback">Password field cannot be blank!</div>
                                                     </div>
 
                                                     <div class="form-check mt-3">
@@ -73,7 +67,7 @@
 
                                                     <div class="form-check mt-3">
                                                         <label class="form-check-label">
-                                                            Already have an acount?
+                                                            Already have an account?
                                                             <NuxtLink to="/login">
                                                                 Login Now
                                                             </NuxtLink>
@@ -93,28 +87,21 @@
     </div>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
+
+useSeoMeta({
+  title: 'SparkPesa',
+  ogTitle: 'SparkPesa',
+  description: 'This is my amazing site, let me tell you all about it.',
+  ogDescription: 'This is my amazing site, let me tell you all about it.',
+  ogImage: '/assets/images/favicon.png',
+  twitterCard: 'summary_large_image',
+  keywords: 'spark, pesa, gaming, online betting, casino, slots, jackpots' // Add your keywords here
+});
+
 import Header from "../components/Navbar.vue";
 import Slider from "../components/Slider.vue";
 import Footer from "../components/AppFooter.vue";
-
-export default {
-    name: "JoinPage",
-    data() {
-        return {
-            //
-        };
-    },
-    methods: {
-        //
-    },
-    components: {
-        Header,
-        Slider,
-        Footer,
-    },
-};
 </script>
-
 
 <style scoped></style>

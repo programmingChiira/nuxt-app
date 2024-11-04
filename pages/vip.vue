@@ -129,27 +129,21 @@
     </div>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
+
+useSeoMeta({
+  title: 'Vip',
+  ogTitle: 'Vip',
+  description: 'This is my amazing site, let me tell you all about it.',
+  ogDescription: 'This is my amazing site, let me tell you all about it.',
+  ogImage: '/assets/images/favicon.png',
+  twitterCard: 'summary_large_image',
+  keywords: 'spark, pesa, gaming, online betting, casino, slots, jackpots' // Add your keywords here
+});
+
 import Header from "../components/Navbar.vue";
 import Slider from "../components/Slider.vue";
 import Footer from "../components/AppFooter.vue";
-
-export default {
-    name: "VipPage",
-    data() {
-        return {
-            //
-        };
-    },
-    methods: {
-        //
-    },
-    components: {
-        Header,
-        Slider,
-        Footer,
-    },
-};
 </script>
 
 <style scoped></style>

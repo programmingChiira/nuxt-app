@@ -1,13 +1,19 @@
 <template>
     <div>
-        <slot />
+      <NuxtPage />
     </div>
-</template>
-
-<script lang="ts">
-
-export default {
+  </template>
+  
+  <script lang="ts">
+  
+  export default {
     components: {
+        //
     },
-};
-</script>
+  };
+  </script>
+  
+  <style scoped>
+  /* Add any styles here */
+  </style>
+  
